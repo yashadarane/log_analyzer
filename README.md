@@ -1,4 +1,4 @@
-# Log Analyzer — Production-Grade Log Processing & Anomaly Detection
+# Log Analyzer Production-Grade Log Processing & Anomaly Detection
 
 A memory-efficient Python CLI tool that processes large log files, computes
 structured summary metrics, detects error-rate anomalies, and reports the top
@@ -36,12 +36,12 @@ log_analyzer/
 
 ## Quick Start
 
-### 1 — Generate sample logs (only needed once)
+### 1 Generate sample logs (only needed once)
 ```bash
 python generate_sample_logs.py
 ```
 
-### 2 — Run the analyzer
+### 2 Run the analyzer
 ```bash
 # Print JSON to terminal
 python main.py --logs sample_logs/
@@ -56,7 +56,7 @@ python main.py --logs sample_logs/ --threshold 5 --top-k 10 --window 600
 python main.py --logs sample_logs/ --verbose
 ```
 
-### 3 — Run tests
+### 3 Run tests
 ```bash
 python -m unittest discover tests/ -v
 ```
@@ -161,8 +161,7 @@ the threshold, it is flagged as an anomaly.
 
 ## Configuration
 
-All magic numbers live in `config/settings.py`. Change them once there —
-never in business logic:
+All magic numbers live in `config/settings.py`. 
 
 ```python
 WINDOW_SIZE_SECONDS = 300    # 5-minute anomaly windows
