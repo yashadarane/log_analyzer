@@ -1,0 +1,1245 @@
+{
+  "summary": {
+    "total_logs": 62910,
+    "levels": {
+      "WARN": 7497,
+      "INFO": 42606,
+      "ERROR": 12807
+    },
+    "services": {
+      "service_b": 2063,
+      "db_service": 11473,
+      "auth_service": 8396,
+      "service_a": 1991,
+      "service_c": 1969,
+      "api_gateway": 13010,
+      "inventory_svc": 4817,
+      "user_service": 6026,
+      "notification_svc": 3350,
+      "payment_service": 6236,
+      "cache_service": 3579
+    },
+    "error_rate_per_service": {
+      "service_b": 0.1755,
+      "db_service": 0.3254,
+      "auth_service": 0.1669,
+      "service_a": 0.1582,
+      "service_c": 0.1356,
+      "api_gateway": 0.1844,
+      "inventory_svc": 0.1115,
+      "user_service": 0.0788,
+      "notification_svc": 0.091,
+      "payment_service": 0.3493,
+      "cache_service": 0.2333
+    }
+  },
+  "top_errors": [
+    {
+      "message": "Connection pool exhausted",
+      "count": 1699
+    },
+    {
+      "message": "Request timeout after 5000ms",
+      "count": 824
+    },
+    {
+      "message": "Timeout occurred",
+      "count": 623
+    },
+    {
+      "message": "Query execution timeout: table=users",
+      "count": 595
+    },
+    {
+      "message": "Disk I/O error on primary replica",
+      "count": 572
+    }
+  ],
+  "anomalies": [
+    {
+      "window_start": "2026-03-18 08:00:00",
+      "window_end": "2026-03-18 08:05:00",
+      "error_count": 17
+    },
+    {
+      "window_start": "2026-03-18 08:05:00",
+      "window_end": "2026-03-18 08:10:00",
+      "error_count": 23
+    },
+    {
+      "window_start": "2026-03-18 08:10:00",
+      "window_end": "2026-03-18 08:15:00",
+      "error_count": 28
+    },
+    {
+      "window_start": "2026-03-18 08:15:00",
+      "window_end": "2026-03-18 08:20:00",
+      "error_count": 15
+    },
+    {
+      "window_start": "2026-03-18 08:20:00",
+      "window_end": "2026-03-18 08:25:00",
+      "error_count": 20
+    },
+    {
+      "window_start": "2026-03-18 08:25:00",
+      "window_end": "2026-03-18 08:30:00",
+      "error_count": 17
+    },
+    {
+      "window_start": "2026-03-18 08:30:00",
+      "window_end": "2026-03-18 08:35:00",
+      "error_count": 24
+    },
+    {
+      "window_start": "2026-03-18 08:35:00",
+      "window_end": "2026-03-18 08:40:00",
+      "error_count": 25
+    },
+    {
+      "window_start": "2026-03-18 08:40:00",
+      "window_end": "2026-03-18 08:45:00",
+      "error_count": 26
+    },
+    {
+      "window_start": "2026-03-18 08:45:00",
+      "window_end": "2026-03-18 08:50:00",
+      "error_count": 22
+    },
+    {
+      "window_start": "2026-03-18 08:50:00",
+      "window_end": "2026-03-18 08:55:00",
+      "error_count": 18
+    },
+    {
+      "window_start": "2026-03-18 08:55:00",
+      "window_end": "2026-03-18 09:00:00",
+      "error_count": 16
+    },
+    {
+      "window_start": "2026-03-18 09:00:00",
+      "window_end": "2026-03-18 09:05:00",
+      "error_count": 65
+    },
+    {
+      "window_start": "2026-03-18 09:05:00",
+      "window_end": "2026-03-18 09:10:00",
+      "error_count": 58
+    },
+    {
+      "window_start": "2026-03-18 09:10:00",
+      "window_end": "2026-03-18 09:15:00",
+      "error_count": 57
+    },
+    {
+      "window_start": "2026-03-18 09:15:00",
+      "window_end": "2026-03-18 09:20:00",
+      "error_count": 65
+    },
+    {
+      "window_start": "2026-03-18 09:20:00",
+      "window_end": "2026-03-18 09:25:00",
+      "error_count": 64
+    },
+    {
+      "window_start": "2026-03-18 09:25:00",
+      "window_end": "2026-03-18 09:30:00",
+      "error_count": 127
+    },
+    {
+      "window_start": "2026-03-18 09:30:00",
+      "window_end": "2026-03-18 09:35:00",
+      "error_count": 107
+    },
+    {
+      "window_start": "2026-03-18 09:35:00",
+      "window_end": "2026-03-18 09:40:00",
+      "error_count": 75
+    },
+    {
+      "window_start": "2026-03-18 09:40:00",
+      "window_end": "2026-03-18 09:45:00",
+      "error_count": 74
+    },
+    {
+      "window_start": "2026-03-18 09:45:00",
+      "window_end": "2026-03-18 09:50:00",
+      "error_count": 66
+    },
+    {
+      "window_start": "2026-03-18 09:50:00",
+      "window_end": "2026-03-18 09:55:00",
+      "error_count": 62
+    },
+    {
+      "window_start": "2026-03-18 09:55:00",
+      "window_end": "2026-03-18 10:00:00",
+      "error_count": 70
+    },
+    {
+      "window_start": "2026-03-18 10:00:00",
+      "window_end": "2026-03-18 10:05:00",
+      "error_count": 97
+    },
+    {
+      "window_start": "2026-03-18 10:05:00",
+      "window_end": "2026-03-18 10:10:00",
+      "error_count": 69
+    },
+    {
+      "window_start": "2026-03-18 10:10:00",
+      "window_end": "2026-03-18 10:15:00",
+      "error_count": 57
+    },
+    {
+      "window_start": "2026-03-18 10:15:00",
+      "window_end": "2026-03-18 10:20:00",
+      "error_count": 59
+    },
+    {
+      "window_start": "2026-03-18 10:20:00",
+      "window_end": "2026-03-18 10:25:00",
+      "error_count": 67
+    },
+    {
+      "window_start": "2026-03-18 10:25:00",
+      "window_end": "2026-03-18 10:30:00",
+      "error_count": 58
+    },
+    {
+      "window_start": "2026-03-18 10:30:00",
+      "window_end": "2026-03-18 10:35:00",
+      "error_count": 64
+    },
+    {
+      "window_start": "2026-03-18 10:35:00",
+      "window_end": "2026-03-18 10:40:00",
+      "error_count": 69
+    },
+    {
+      "window_start": "2026-03-18 10:40:00",
+      "window_end": "2026-03-18 10:45:00",
+      "error_count": 74
+    },
+    {
+      "window_start": "2026-03-18 10:45:00",
+      "window_end": "2026-03-18 10:50:00",
+      "error_count": 70
+    },
+    {
+      "window_start": "2026-03-18 10:50:00",
+      "window_end": "2026-03-18 10:55:00",
+      "error_count": 60
+    },
+    {
+      "window_start": "2026-03-18 10:55:00",
+      "window_end": "2026-03-18 11:00:00",
+      "error_count": 67
+    },
+    {
+      "window_start": "2026-03-18 11:00:00",
+      "window_end": "2026-03-18 11:05:00",
+      "error_count": 58
+    },
+    {
+      "window_start": "2026-03-18 11:05:00",
+      "window_end": "2026-03-18 11:10:00",
+      "error_count": 71
+    },
+    {
+      "window_start": "2026-03-18 11:10:00",
+      "window_end": "2026-03-18 11:15:00",
+      "error_count": 58
+    },
+    {
+      "window_start": "2026-03-18 11:15:00",
+      "window_end": "2026-03-18 11:20:00",
+      "error_count": 59
+    },
+    {
+      "window_start": "2026-03-18 11:20:00",
+      "window_end": "2026-03-18 11:25:00",
+      "error_count": 56
+    },
+    {
+      "window_start": "2026-03-18 11:25:00",
+      "window_end": "2026-03-18 11:30:00",
+      "error_count": 42
+    },
+    {
+      "window_start": "2026-03-18 11:30:00",
+      "window_end": "2026-03-18 11:35:00",
+      "error_count": 47
+    },
+    {
+      "window_start": "2026-03-18 11:35:00",
+      "window_end": "2026-03-18 11:40:00",
+      "error_count": 53
+    },
+    {
+      "window_start": "2026-03-18 11:40:00",
+      "window_end": "2026-03-18 11:45:00",
+      "error_count": 19
+    },
+    {
+      "window_start": "2026-03-19 09:00:00",
+      "window_end": "2026-03-19 09:05:00",
+      "error_count": 22
+    },
+    {
+      "window_start": "2026-03-19 09:05:00",
+      "window_end": "2026-03-19 09:10:00",
+      "error_count": 21
+    },
+    {
+      "window_start": "2026-03-19 09:10:00",
+      "window_end": "2026-03-19 09:15:00",
+      "error_count": 20
+    },
+    {
+      "window_start": "2026-03-19 09:15:00",
+      "window_end": "2026-03-19 09:20:00",
+      "error_count": 23
+    },
+    {
+      "window_start": "2026-03-19 09:20:00",
+      "window_end": "2026-03-19 09:25:00",
+      "error_count": 19
+    },
+    {
+      "window_start": "2026-03-19 09:25:00",
+      "window_end": "2026-03-19 09:30:00",
+      "error_count": 34
+    },
+    {
+      "window_start": "2026-03-19 09:30:00",
+      "window_end": "2026-03-19 09:35:00",
+      "error_count": 21
+    },
+    {
+      "window_start": "2026-03-19 09:35:00",
+      "window_end": "2026-03-19 09:40:00",
+      "error_count": 17
+    },
+    {
+      "window_start": "2026-03-19 09:40:00",
+      "window_end": "2026-03-19 09:45:00",
+      "error_count": 20
+    },
+    {
+      "window_start": "2026-03-19 09:45:00",
+      "window_end": "2026-03-19 09:50:00",
+      "error_count": 20
+    },
+    {
+      "window_start": "2026-03-19 09:50:00",
+      "window_end": "2026-03-19 09:55:00",
+      "error_count": 24
+    },
+    {
+      "window_start": "2026-03-19 09:55:00",
+      "window_end": "2026-03-19 10:00:00",
+      "error_count": 28
+    },
+    {
+      "window_start": "2026-03-19 10:00:00",
+      "window_end": "2026-03-19 10:05:00",
+      "error_count": 20
+    },
+    {
+      "window_start": "2026-03-19 10:05:00",
+      "window_end": "2026-03-19 10:10:00",
+      "error_count": 29
+    },
+    {
+      "window_start": "2026-03-19 10:10:00",
+      "window_end": "2026-03-19 10:15:00",
+      "error_count": 59
+    },
+    {
+      "window_start": "2026-03-19 10:15:00",
+      "window_end": "2026-03-19 10:20:00",
+      "error_count": 21
+    },
+    {
+      "window_start": "2026-03-19 10:20:00",
+      "window_end": "2026-03-19 10:25:00",
+      "error_count": 18
+    },
+    {
+      "window_start": "2026-03-19 10:25:00",
+      "window_end": "2026-03-19 10:30:00",
+      "error_count": 20
+    },
+    {
+      "window_start": "2026-03-19 10:30:00",
+      "window_end": "2026-03-19 10:35:00",
+      "error_count": 23
+    },
+    {
+      "window_start": "2026-03-19 10:35:00",
+      "window_end": "2026-03-19 10:40:00",
+      "error_count": 18
+    },
+    {
+      "window_start": "2026-03-19 10:40:00",
+      "window_end": "2026-03-19 10:45:00",
+      "error_count": 25
+    },
+    {
+      "window_start": "2026-03-19 10:45:00",
+      "window_end": "2026-03-19 10:50:00",
+      "error_count": 17
+    },
+    {
+      "window_start": "2026-03-19 10:50:00",
+      "window_end": "2026-03-19 10:55:00",
+      "error_count": 21
+    },
+    {
+      "window_start": "2026-03-19 10:55:00",
+      "window_end": "2026-03-19 11:00:00",
+      "error_count": 22
+    },
+    {
+      "window_start": "2026-03-19 11:00:00",
+      "window_end": "2026-03-19 11:05:00",
+      "error_count": 21
+    },
+    {
+      "window_start": "2026-03-19 11:05:00",
+      "window_end": "2026-03-19 11:10:00",
+      "error_count": 22
+    },
+    {
+      "window_start": "2026-03-19 11:10:00",
+      "window_end": "2026-03-19 11:15:00",
+      "error_count": 19
+    },
+    {
+      "window_start": "2026-03-19 11:15:00",
+      "window_end": "2026-03-19 11:20:00",
+      "error_count": 26
+    },
+    {
+      "window_start": "2026-03-19 11:20:00",
+      "window_end": "2026-03-19 11:25:00",
+      "error_count": 20
+    },
+    {
+      "window_start": "2026-03-19 11:25:00",
+      "window_end": "2026-03-19 11:30:00",
+      "error_count": 19
+    },
+    {
+      "window_start": "2026-03-19 11:30:00",
+      "window_end": "2026-03-19 11:35:00",
+      "error_count": 16
+    },
+    {
+      "window_start": "2026-03-19 11:35:00",
+      "window_end": "2026-03-19 11:40:00",
+      "error_count": 16
+    },
+    {
+      "window_start": "2026-03-19 11:40:00",
+      "window_end": "2026-03-19 11:45:00",
+      "error_count": 19
+    },
+    {
+      "window_start": "2026-03-19 11:45:00",
+      "window_end": "2026-03-19 11:50:00",
+      "error_count": 25
+    },
+    {
+      "window_start": "2026-03-19 11:50:00",
+      "window_end": "2026-03-19 11:55:00",
+      "error_count": 22
+    },
+    {
+      "window_start": "2026-03-19 11:55:00",
+      "window_end": "2026-03-19 12:00:00",
+      "error_count": 21
+    },
+    {
+      "window_start": "2026-03-19 12:00:00",
+      "window_end": "2026-03-19 12:05:00",
+      "error_count": 25
+    },
+    {
+      "window_start": "2026-03-19 12:05:00",
+      "window_end": "2026-03-19 12:10:00",
+      "error_count": 26
+    },
+    {
+      "window_start": "2026-03-20 08:00:00",
+      "window_end": "2026-03-20 08:05:00",
+      "error_count": 30
+    },
+    {
+      "window_start": "2026-03-20 08:05:00",
+      "window_end": "2026-03-20 08:10:00",
+      "error_count": 19
+    },
+    {
+      "window_start": "2026-03-20 08:10:00",
+      "window_end": "2026-03-20 08:15:00",
+      "error_count": 24
+    },
+    {
+      "window_start": "2026-03-20 08:15:00",
+      "window_end": "2026-03-20 08:20:00",
+      "error_count": 15
+    },
+    {
+      "window_start": "2026-03-20 08:20:00",
+      "window_end": "2026-03-20 08:25:00",
+      "error_count": 17
+    },
+    {
+      "window_start": "2026-03-20 08:25:00",
+      "window_end": "2026-03-20 08:30:00",
+      "error_count": 17
+    },
+    {
+      "window_start": "2026-03-20 08:30:00",
+      "window_end": "2026-03-20 08:35:00",
+      "error_count": 22
+    },
+    {
+      "window_start": "2026-03-20 08:35:00",
+      "window_end": "2026-03-20 08:40:00",
+      "error_count": 21
+    },
+    {
+      "window_start": "2026-03-20 08:40:00",
+      "window_end": "2026-03-20 08:45:00",
+      "error_count": 25
+    },
+    {
+      "window_start": "2026-03-20 08:45:00",
+      "window_end": "2026-03-20 08:50:00",
+      "error_count": 24
+    },
+    {
+      "window_start": "2026-03-20 08:50:00",
+      "window_end": "2026-03-20 08:55:00",
+      "error_count": 33
+    },
+    {
+      "window_start": "2026-03-20 08:55:00",
+      "window_end": "2026-03-20 09:00:00",
+      "error_count": 25
+    },
+    {
+      "window_start": "2026-03-20 09:00:00",
+      "window_end": "2026-03-20 09:05:00",
+      "error_count": 16
+    },
+    {
+      "window_start": "2026-03-20 09:05:00",
+      "window_end": "2026-03-20 09:10:00",
+      "error_count": 21
+    },
+    {
+      "window_start": "2026-03-20 09:10:00",
+      "window_end": "2026-03-20 09:15:00",
+      "error_count": 19
+    },
+    {
+      "window_start": "2026-03-20 09:15:00",
+      "window_end": "2026-03-20 09:20:00",
+      "error_count": 23
+    },
+    {
+      "window_start": "2026-03-20 09:20:00",
+      "window_end": "2026-03-20 09:25:00",
+      "error_count": 20
+    },
+    {
+      "window_start": "2026-03-20 09:25:00",
+      "window_end": "2026-03-20 09:30:00",
+      "error_count": 18
+    },
+    {
+      "window_start": "2026-03-20 09:30:00",
+      "window_end": "2026-03-20 09:35:00",
+      "error_count": 30
+    },
+    {
+      "window_start": "2026-03-20 09:35:00",
+      "window_end": "2026-03-20 09:40:00",
+      "error_count": 23
+    },
+    {
+      "window_start": "2026-03-20 09:40:00",
+      "window_end": "2026-03-20 09:45:00",
+      "error_count": 22
+    },
+    {
+      "window_start": "2026-03-20 09:45:00",
+      "window_end": "2026-03-20 09:50:00",
+      "error_count": 69
+    },
+    {
+      "window_start": "2026-03-20 09:50:00",
+      "window_end": "2026-03-20 09:55:00",
+      "error_count": 17
+    },
+    {
+      "window_start": "2026-03-20 09:55:00",
+      "window_end": "2026-03-20 10:00:00",
+      "error_count": 18
+    },
+    {
+      "window_start": "2026-03-20 10:00:00",
+      "window_end": "2026-03-20 10:05:00",
+      "error_count": 20
+    },
+    {
+      "window_start": "2026-03-20 10:05:00",
+      "window_end": "2026-03-20 10:10:00",
+      "error_count": 19
+    },
+    {
+      "window_start": "2026-03-20 10:10:00",
+      "window_end": "2026-03-20 10:15:00",
+      "error_count": 24
+    },
+    {
+      "window_start": "2026-03-20 10:15:00",
+      "window_end": "2026-03-20 10:20:00",
+      "error_count": 26
+    },
+    {
+      "window_start": "2026-03-20 10:20:00",
+      "window_end": "2026-03-20 10:25:00",
+      "error_count": 21
+    },
+    {
+      "window_start": "2026-03-20 10:25:00",
+      "window_end": "2026-03-20 10:30:00",
+      "error_count": 19
+    },
+    {
+      "window_start": "2026-03-20 10:30:00",
+      "window_end": "2026-03-20 10:35:00",
+      "error_count": 24
+    },
+    {
+      "window_start": "2026-03-20 10:35:00",
+      "window_end": "2026-03-20 10:40:00",
+      "error_count": 17
+    },
+    {
+      "window_start": "2026-03-20 10:40:00",
+      "window_end": "2026-03-20 10:45:00",
+      "error_count": 19
+    },
+    {
+      "window_start": "2026-03-20 10:45:00",
+      "window_end": "2026-03-20 10:50:00",
+      "error_count": 22
+    },
+    {
+      "window_start": "2026-03-20 10:50:00",
+      "window_end": "2026-03-20 10:55:00",
+      "error_count": 11
+    },
+    {
+      "window_start": "2026-03-20 10:55:00",
+      "window_end": "2026-03-20 11:00:00",
+      "error_count": 22
+    },
+    {
+      "window_start": "2026-03-20 11:00:00",
+      "window_end": "2026-03-20 11:05:00",
+      "error_count": 18
+    },
+    {
+      "window_start": "2026-03-20 11:05:00",
+      "window_end": "2026-03-20 11:10:00",
+      "error_count": 19
+    },
+    {
+      "window_start": "2026-03-20 11:10:00",
+      "window_end": "2026-03-20 11:15:00",
+      "error_count": 18
+    },
+    {
+      "window_start": "2026-03-20 11:15:00",
+      "window_end": "2026-03-20 11:20:00",
+      "error_count": 15
+    },
+    {
+      "window_start": "2026-03-20 11:20:00",
+      "window_end": "2026-03-20 11:25:00",
+      "error_count": 22
+    },
+    {
+      "window_start": "2026-03-20 11:25:00",
+      "window_end": "2026-03-20 11:30:00",
+      "error_count": 23
+    },
+    {
+      "window_start": "2026-03-20 11:30:00",
+      "window_end": "2026-03-20 11:35:00",
+      "error_count": 17
+    },
+    {
+      "window_start": "2026-03-21 23:00:00",
+      "window_end": "2026-03-21 23:05:00",
+      "error_count": 60
+    },
+    {
+      "window_start": "2026-03-21 23:05:00",
+      "window_end": "2026-03-21 23:10:00",
+      "error_count": 75
+    },
+    {
+      "window_start": "2026-03-21 23:10:00",
+      "window_end": "2026-03-21 23:15:00",
+      "error_count": 84
+    },
+    {
+      "window_start": "2026-03-21 23:15:00",
+      "window_end": "2026-03-21 23:20:00",
+      "error_count": 74
+    },
+    {
+      "window_start": "2026-03-21 23:20:00",
+      "window_end": "2026-03-21 23:25:00",
+      "error_count": 88
+    },
+    {
+      "window_start": "2026-03-21 23:25:00",
+      "window_end": "2026-03-21 23:30:00",
+      "error_count": 89
+    },
+    {
+      "window_start": "2026-03-21 23:30:00",
+      "window_end": "2026-03-21 23:35:00",
+      "error_count": 100
+    },
+    {
+      "window_start": "2026-03-21 23:35:00",
+      "window_end": "2026-03-21 23:40:00",
+      "error_count": 99
+    },
+    {
+      "window_start": "2026-03-21 23:40:00",
+      "window_end": "2026-03-21 23:45:00",
+      "error_count": 98
+    },
+    {
+      "window_start": "2026-03-21 23:45:00",
+      "window_end": "2026-03-21 23:50:00",
+      "error_count": 126
+    },
+    {
+      "window_start": "2026-03-21 23:50:00",
+      "window_end": "2026-03-21 23:55:00",
+      "error_count": 126
+    },
+    {
+      "window_start": "2026-03-21 23:55:00",
+      "window_end": "2026-03-22 00:00:00",
+      "error_count": 107
+    },
+    {
+      "window_start": "2026-03-22 00:00:00",
+      "window_end": "2026-03-22 00:05:00",
+      "error_count": 119
+    },
+    {
+      "window_start": "2026-03-22 00:05:00",
+      "window_end": "2026-03-22 00:10:00",
+      "error_count": 141
+    },
+    {
+      "window_start": "2026-03-22 00:10:00",
+      "window_end": "2026-03-22 00:15:00",
+      "error_count": 129
+    },
+    {
+      "window_start": "2026-03-22 00:15:00",
+      "window_end": "2026-03-22 00:20:00",
+      "error_count": 143
+    },
+    {
+      "window_start": "2026-03-22 00:20:00",
+      "window_end": "2026-03-22 00:25:00",
+      "error_count": 142
+    },
+    {
+      "window_start": "2026-03-22 00:25:00",
+      "window_end": "2026-03-22 00:30:00",
+      "error_count": 146
+    },
+    {
+      "window_start": "2026-03-22 00:30:00",
+      "window_end": "2026-03-22 00:35:00",
+      "error_count": 153
+    },
+    {
+      "window_start": "2026-03-22 00:35:00",
+      "window_end": "2026-03-22 00:40:00",
+      "error_count": 172
+    },
+    {
+      "window_start": "2026-03-22 00:40:00",
+      "window_end": "2026-03-22 00:45:00",
+      "error_count": 193
+    },
+    {
+      "window_start": "2026-03-22 00:45:00",
+      "window_end": "2026-03-22 00:50:00",
+      "error_count": 182
+    },
+    {
+      "window_start": "2026-03-22 00:50:00",
+      "window_end": "2026-03-22 00:55:00",
+      "error_count": 195
+    },
+    {
+      "window_start": "2026-03-22 00:55:00",
+      "window_end": "2026-03-22 01:00:00",
+      "error_count": 181
+    },
+    {
+      "window_start": "2026-03-22 01:00:00",
+      "window_end": "2026-03-22 01:05:00",
+      "error_count": 227
+    },
+    {
+      "window_start": "2026-03-22 01:05:00",
+      "window_end": "2026-03-22 01:10:00",
+      "error_count": 194
+    },
+    {
+      "window_start": "2026-03-22 01:10:00",
+      "window_end": "2026-03-22 01:15:00",
+      "error_count": 174
+    },
+    {
+      "window_start": "2026-03-22 14:30:00",
+      "window_end": "2026-03-22 14:35:00",
+      "error_count": 21
+    },
+    {
+      "window_start": "2026-03-22 14:35:00",
+      "window_end": "2026-03-22 14:40:00",
+      "error_count": 22
+    },
+    {
+      "window_start": "2026-03-22 14:40:00",
+      "window_end": "2026-03-22 14:45:00",
+      "error_count": 21
+    },
+    {
+      "window_start": "2026-03-22 14:45:00",
+      "window_end": "2026-03-22 14:50:00",
+      "error_count": 26
+    },
+    {
+      "window_start": "2026-03-22 14:50:00",
+      "window_end": "2026-03-22 14:55:00",
+      "error_count": 17
+    },
+    {
+      "window_start": "2026-03-22 14:55:00",
+      "window_end": "2026-03-22 15:00:00",
+      "error_count": 19
+    },
+    {
+      "window_start": "2026-03-22 15:00:00",
+      "window_end": "2026-03-22 15:05:00",
+      "error_count": 16
+    },
+    {
+      "window_start": "2026-03-22 15:05:00",
+      "window_end": "2026-03-22 15:10:00",
+      "error_count": 21
+    },
+    {
+      "window_start": "2026-03-22 15:10:00",
+      "window_end": "2026-03-22 15:15:00",
+      "error_count": 21
+    },
+    {
+      "window_start": "2026-03-22 15:15:00",
+      "window_end": "2026-03-22 15:20:00",
+      "error_count": 40
+    },
+    {
+      "window_start": "2026-03-22 15:20:00",
+      "window_end": "2026-03-22 15:25:00",
+      "error_count": 135
+    },
+    {
+      "window_start": "2026-03-22 15:25:00",
+      "window_end": "2026-03-22 15:30:00",
+      "error_count": 118
+    },
+    {
+      "window_start": "2026-03-22 15:30:00",
+      "window_end": "2026-03-22 15:35:00",
+      "error_count": 124
+    },
+    {
+      "window_start": "2026-03-22 15:35:00",
+      "window_end": "2026-03-22 15:40:00",
+      "error_count": 130
+    },
+    {
+      "window_start": "2026-03-22 15:40:00",
+      "window_end": "2026-03-22 15:45:00",
+      "error_count": 145
+    },
+    {
+      "window_start": "2026-03-22 15:45:00",
+      "window_end": "2026-03-22 15:50:00",
+      "error_count": 110
+    },
+    {
+      "window_start": "2026-03-22 15:50:00",
+      "window_end": "2026-03-22 15:55:00",
+      "error_count": 120
+    },
+    {
+      "window_start": "2026-03-22 15:55:00",
+      "window_end": "2026-03-22 16:00:00",
+      "error_count": 138
+    },
+    {
+      "window_start": "2026-03-22 16:00:00",
+      "window_end": "2026-03-22 16:05:00",
+      "error_count": 139
+    },
+    {
+      "window_start": "2026-03-22 16:05:00",
+      "window_end": "2026-03-22 16:10:00",
+      "error_count": 122
+    },
+    {
+      "window_start": "2026-03-22 16:10:00",
+      "window_end": "2026-03-22 16:15:00",
+      "error_count": 111
+    },
+    {
+      "window_start": "2026-03-22 16:15:00",
+      "window_end": "2026-03-22 16:20:00",
+      "error_count": 109
+    },
+    {
+      "window_start": "2026-03-22 16:20:00",
+      "window_end": "2026-03-22 16:25:00",
+      "error_count": 122
+    },
+    {
+      "window_start": "2026-03-22 16:25:00",
+      "window_end": "2026-03-22 16:30:00",
+      "error_count": 114
+    },
+    {
+      "window_start": "2026-03-22 16:30:00",
+      "window_end": "2026-03-22 16:35:00",
+      "error_count": 111
+    },
+    {
+      "window_start": "2026-03-22 16:35:00",
+      "window_end": "2026-03-22 16:40:00",
+      "error_count": 103
+    },
+    {
+      "window_start": "2026-03-22 16:40:00",
+      "window_end": "2026-03-22 16:45:00",
+      "error_count": 114
+    },
+    {
+      "window_start": "2026-03-22 16:45:00",
+      "window_end": "2026-03-22 16:50:00",
+      "error_count": 88
+    },
+    {
+      "window_start": "2026-03-22 16:50:00",
+      "window_end": "2026-03-22 16:55:00",
+      "error_count": 125
+    },
+    {
+      "window_start": "2026-03-22 16:55:00",
+      "window_end": "2026-03-22 17:00:00",
+      "error_count": 111
+    },
+    {
+      "window_start": "2026-03-22 17:00:00",
+      "window_end": "2026-03-22 17:05:00",
+      "error_count": 109
+    },
+    {
+      "window_start": "2026-03-22 17:05:00",
+      "window_end": "2026-03-22 17:10:00",
+      "error_count": 97
+    },
+    {
+      "window_start": "2026-03-22 17:10:00",
+      "window_end": "2026-03-22 17:15:00",
+      "error_count": 88
+    },
+    {
+      "window_start": "2026-03-22 17:15:00",
+      "window_end": "2026-03-22 17:20:00",
+      "error_count": 93
+    },
+    {
+      "window_start": "2026-03-22 17:20:00",
+      "window_end": "2026-03-22 17:25:00",
+      "error_count": 78
+    },
+    {
+      "window_start": "2026-03-22 17:25:00",
+      "window_end": "2026-03-22 17:30:00",
+      "error_count": 72
+    },
+    {
+      "window_start": "2026-03-22 17:30:00",
+      "window_end": "2026-03-22 17:35:00",
+      "error_count": 68
+    },
+    {
+      "window_start": "2026-03-22 17:35:00",
+      "window_end": "2026-03-22 17:40:00",
+      "error_count": 62
+    },
+    {
+      "window_start": "2026-03-22 17:40:00",
+      "window_end": "2026-03-22 17:45:00",
+      "error_count": 58
+    },
+    {
+      "window_start": "2026-03-22 17:45:00",
+      "window_end": "2026-03-22 17:50:00",
+      "error_count": 59
+    },
+    {
+      "window_start": "2026-03-22 17:50:00",
+      "window_end": "2026-03-22 17:55:00",
+      "error_count": 39
+    },
+    {
+      "window_start": "2026-03-22 17:55:00",
+      "window_end": "2026-03-22 18:00:00",
+      "error_count": 31
+    },
+    {
+      "window_start": "2026-03-22 18:00:00",
+      "window_end": "2026-03-22 18:05:00",
+      "error_count": 22
+    },
+    {
+      "window_start": "2026-03-22 18:05:00",
+      "window_end": "2026-03-22 18:10:00",
+      "error_count": 31
+    },
+    {
+      "window_start": "2026-03-23 09:00:00",
+      "window_end": "2026-03-23 09:05:00",
+      "error_count": 30
+    },
+    {
+      "window_start": "2026-03-23 09:05:00",
+      "window_end": "2026-03-23 09:10:00",
+      "error_count": 29
+    },
+    {
+      "window_start": "2026-03-23 09:10:00",
+      "window_end": "2026-03-23 09:15:00",
+      "error_count": 24
+    },
+    {
+      "window_start": "2026-03-23 09:15:00",
+      "window_end": "2026-03-23 09:20:00",
+      "error_count": 36
+    },
+    {
+      "window_start": "2026-03-23 09:20:00",
+      "window_end": "2026-03-23 09:25:00",
+      "error_count": 31
+    },
+    {
+      "window_start": "2026-03-23 09:25:00",
+      "window_end": "2026-03-23 09:30:00",
+      "error_count": 64
+    },
+    {
+      "window_start": "2026-03-23 09:30:00",
+      "window_end": "2026-03-23 09:35:00",
+      "error_count": 36
+    },
+    {
+      "window_start": "2026-03-23 09:35:00",
+      "window_end": "2026-03-23 09:40:00",
+      "error_count": 30
+    },
+    {
+      "window_start": "2026-03-23 09:40:00",
+      "window_end": "2026-03-23 09:45:00",
+      "error_count": 28
+    },
+    {
+      "window_start": "2026-03-23 09:45:00",
+      "window_end": "2026-03-23 09:50:00",
+      "error_count": 26
+    },
+    {
+      "window_start": "2026-03-23 09:50:00",
+      "window_end": "2026-03-23 09:55:00",
+      "error_count": 72
+    },
+    {
+      "window_start": "2026-03-23 09:55:00",
+      "window_end": "2026-03-23 10:00:00",
+      "error_count": 33
+    },
+    {
+      "window_start": "2026-03-23 10:00:00",
+      "window_end": "2026-03-23 10:05:00",
+      "error_count": 16
+    },
+    {
+      "window_start": "2026-03-23 10:05:00",
+      "window_end": "2026-03-23 10:10:00",
+      "error_count": 31
+    },
+    {
+      "window_start": "2026-03-23 10:10:00",
+      "window_end": "2026-03-23 10:15:00",
+      "error_count": 40
+    },
+    {
+      "window_start": "2026-03-23 10:15:00",
+      "window_end": "2026-03-23 10:20:00",
+      "error_count": 33
+    },
+    {
+      "window_start": "2026-03-23 10:20:00",
+      "window_end": "2026-03-23 10:25:00",
+      "error_count": 49
+    },
+    {
+      "window_start": "2026-03-23 10:25:00",
+      "window_end": "2026-03-23 10:30:00",
+      "error_count": 67
+    },
+    {
+      "window_start": "2026-03-23 10:30:00",
+      "window_end": "2026-03-23 10:35:00",
+      "error_count": 32
+    },
+    {
+      "window_start": "2026-03-23 10:35:00",
+      "window_end": "2026-03-23 10:40:00",
+      "error_count": 40
+    },
+    {
+      "window_start": "2026-03-23 10:40:00",
+      "window_end": "2026-03-23 10:45:00",
+      "error_count": 29
+    },
+    {
+      "window_start": "2026-03-23 10:45:00",
+      "window_end": "2026-03-23 10:50:00",
+      "error_count": 35
+    },
+    {
+      "window_start": "2026-03-23 10:50:00",
+      "window_end": "2026-03-23 10:55:00",
+      "error_count": 22
+    },
+    {
+      "window_start": "2026-03-23 10:55:00",
+      "window_end": "2026-03-23 11:00:00",
+      "error_count": 28
+    },
+    {
+      "window_start": "2026-03-23 11:00:00",
+      "window_end": "2026-03-23 11:05:00",
+      "error_count": 87
+    },
+    {
+      "window_start": "2026-03-23 11:05:00",
+      "window_end": "2026-03-23 11:10:00",
+      "error_count": 30
+    },
+    {
+      "window_start": "2026-03-23 11:10:00",
+      "window_end": "2026-03-23 11:15:00",
+      "error_count": 34
+    },
+    {
+      "window_start": "2026-03-23 11:15:00",
+      "window_end": "2026-03-23 11:20:00",
+      "error_count": 34
+    },
+    {
+      "window_start": "2026-03-23 11:20:00",
+      "window_end": "2026-03-23 11:25:00",
+      "error_count": 29
+    },
+    {
+      "window_start": "2026-03-23 11:25:00",
+      "window_end": "2026-03-23 11:30:00",
+      "error_count": 36
+    },
+    {
+      "window_start": "2026-03-23 11:30:00",
+      "window_end": "2026-03-23 11:35:00",
+      "error_count": 82
+    },
+    {
+      "window_start": "2026-03-23 11:35:00",
+      "window_end": "2026-03-23 11:40:00",
+      "error_count": 24
+    },
+    {
+      "window_start": "2026-03-23 11:40:00",
+      "window_end": "2026-03-23 11:45:00",
+      "error_count": 35
+    },
+    {
+      "window_start": "2026-03-23 11:45:00",
+      "window_end": "2026-03-23 11:50:00",
+      "error_count": 29
+    },
+    {
+      "window_start": "2026-03-23 11:50:00",
+      "window_end": "2026-03-23 11:55:00",
+      "error_count": 36
+    },
+    {
+      "window_start": "2026-03-23 11:55:00",
+      "window_end": "2026-03-23 12:00:00",
+      "error_count": 24
+    },
+    {
+      "window_start": "2026-03-23 12:00:00",
+      "window_end": "2026-03-23 12:05:00",
+      "error_count": 29
+    },
+    {
+      "window_start": "2026-03-23 12:05:00",
+      "window_end": "2026-03-23 12:10:00",
+      "error_count": 23
+    },
+    {
+      "window_start": "2026-03-23 12:10:00",
+      "window_end": "2026-03-23 12:15:00",
+      "error_count": 20
+    },
+    {
+      "window_start": "2026-03-23 12:15:00",
+      "window_end": "2026-03-23 12:20:00",
+      "error_count": 32
+    }
+  ]
+}
