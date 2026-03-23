@@ -1,4 +1,4 @@
-# Log Analyzer Production-Grade Log Processing & Anomaly Detection
+# Log Analyzer 
 
 A memory-efficient Python CLI tool that processes large log files, computes
 structured summary metrics, detects error-rate anomalies, and reports the top
